@@ -7,7 +7,7 @@ Please see the separate documentation on [contributing](CONTRIBUTING.md).
 ## Usage
 This is a really basic site that can use a Parature Portal or Service Desk as a RefId Identity Provider (IdP). Steps for testing:
 
-1. (Send a request)[http://partners.support.parature.com/] for enabling a Single Sign On Endpoint. Specify:
+1. [Send a request](http://partners.support.parature.com/) for enabling a Single Sign On Endpoint. Specify:
  * Whether you have an existing Parature Deployment
  * Account and Department Ids (if you have an environment already)
 2. We'll respond back with information you'll populate in the Web.Config:
