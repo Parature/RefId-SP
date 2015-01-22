@@ -47,7 +47,12 @@ namespace RefIdSP
                 //get the claims information. 
                 //This requires a round-trip request from the parature SSO server
                 var json = RefIdHelper.PickUp(refId, username, password, instanceId);
-                var test = "";
+                //read a key from the JSON. This key may be different for your configuration
+                var email = json.Value<string>("email");
+                if (email != null)
+                {
+                    SessionManager.Name = email;
+                }
             }
         }
 
