@@ -1,5 +1,5 @@
 ﻿## Contributing
-This project is no accepting any contributions at this time. It is meant to demonstrate a basic configuration using the (Kentor's open source library)[https://github.com/KentorIT/authservices] in conjunction with Parature - nothing more. This text will be modified if this changes.
+This project is no accepting any contributions at this time. We will accept feature requests but cannot guarantee any will be accepted.
 
 ## Legal
 You will need to complete a Contributor License Agreement (CLA). Briefly, this agreement testifies that you are granting us permission to use the submitted change according to the terms of the project's license, and that the work being submitted is under appropriate copyright.
